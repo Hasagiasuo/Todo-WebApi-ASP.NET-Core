@@ -16,11 +16,12 @@
 
 Проєкт реалізований у багатошаровому підході:  
 
-Solution/
-├─ Domain/ # Моделі та бізнес-логіка
-├─ Application/ # Сервіси, DTO, AutoMapper профілі
-├─ Infrastructure/ # Репозиторії, DBContext, EF Core
-└─ WebApi/ # Контролери, конфігурація API, Swagger
+Solution
+│
+├─ Domain # Моделі та бізнес-логіка
+├─ Application # Сервіси, DTO, AutoMapper профілі
+├─ Infrastructure # Репозиторії, DBContext, EF Core
+└─ WebApi # Контролери, конфігурація API, Swagger
 
 ## Запуск
 
@@ -34,9 +35,9 @@ http://localhost:<port>/swagger
 ```
 
 Технології
-- C# / .NET 7+
+- C# / .NET 9
 - ASP.NET Core Web API
-- Entity Framework Core
+- Entity Framework Core (SQLite)
 - AutoMapper
 - FluentValidation
 - Swagger/OpenAPI
