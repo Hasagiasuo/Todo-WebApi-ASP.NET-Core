@@ -14,13 +14,13 @@ This project implements **CRUD functionality** through **ASP.NET Core Web API** 
 
 ## Architecture
 
-The project is implemented using a multi-layered approach:  
+The project was implemented using a multi-layered approach:
 
-Solution
-├─Domain # Models and business logic
-├─Application # Services, DTO, AutoMapper profiles
-├─Infrastructure # Repositories, DBContext, EF Core
-└─WebApi # Controllers, API configuration, Swagger
+Solution  
+Domain — Models and business logic  
+Application — Services, DTO, AutoMapper profiles  
+Infrastructure — Repositories, DBContext, EF Core  
+WebApi — Controllers, API configuration, Swagger
 
 ## Launch
 
