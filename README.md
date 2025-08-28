@@ -1,31 +1,30 @@
 # ASP.NET Core Web API Project
 
-Цей проєкт реалізує **CRUD функціонал** через **ASP.NET Core Web API** з багатошаровою архітектурою.  
+This project implements **CRUD functionality** through **ASP.NET Core Web API** with a multi-tier architecture.  
 
-## Основні особливості
+## Key features
 
-- ✅ **CRUD операції** для роботи з даними
-- ✅ **IDisposable** для DbContext для правильного управління ресурсами  
-- ✅ **DTO та AutoMapper** для мапінгу між моделями і об'єктами передачі даних  
-- ✅ **Data Annotations та FluentValidation** для валідації даних  
-- ✅ **Swagger / OpenAPI** для автоматичної генерації документації API  
-- ✅ **LINQ** для сортування та фільтрації даних  
-- ✅ **Пагінація та сортування** на рівні API  
+- ✅ **CRUD operations** for working with data
+- ✅ **IDisposable** for DbContext for proper resource management
+- ✅ **DTO and AutoMapper** for mapping between models and data transfer objects
+- ✅ **Data Annotations and FluentValidation** for data validation  
+- ✅ **Swagger / OpenAPI** for automatic API documentation generation
+- ✅ **LINQ** for sorting and filtering data
+- ✅ **Pagination and sorting** at the API level
 
-## Архітектура
+## Architecture
 
-Проєкт реалізований у багатошаровому підході:  
+The project is implemented using a multi-layered approach:  
 
 Solution
-│
-├─ Domain # Моделі та бізнес-логіка
-├─ Application # Сервіси, DTO, AutoMapper профілі
-├─ Infrastructure # Репозиторії, DBContext, EF Core
-└─ WebApi # Контролери, конфігурація API, Swagger
+  Domain # Models and business logic
+  Application # Services, DTO, AutoMapper profiles
+  Infrastructure # Repositories, DBContext, EF Core
+  WebApi # Controllers, API configuration, Swagger
 
-## Запуск
+## Launch
 
-1. Клонувати репозиторій:  
+1. Clone the repository:  
 ```bash
 git clone <repo-url>
 dotnet restore
@@ -34,10 +33,12 @@ dotnet run --project WebApi
 http://localhost:<port>/swagger
 ```
 
-Технології
+Technologies
 - C# / .NET 9
 - ASP.NET Core Web API
 - Entity Framework Core (SQLite)
 - AutoMapper
 - FluentValidation
 - Swagger/OpenAPI
+
+Translated with DeepL.com (free version)
